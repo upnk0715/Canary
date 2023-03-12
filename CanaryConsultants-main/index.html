@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+   initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/e7783e5772.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/main.css">
+  <meta name="description" content="Welcome to the world of Accounting">
+  <meta name="keywords" name="accounting, accounting firm, accounts">
+  <title>Canary Consultants | Accounting Stuff </title>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+       <h1 class="logo"> 
+          <span class="text-primary">
+            <i class="fas fa-book-open"></i>Canary
+          </span> Consultants
+          </h1>
+          <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="accounting.html">Accounting Services</a></li>
+          <li><a href="tax.html">Tax</a></li>
+          <li><a href="payroll.html">Payroll</a></li>
+          <li><a href="additional.html">Additional Info</a></li>
+
+        </ul>
+    </nav>
+    <!-- Header: Showcase -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          Our Company
+        </h1>
+        <p class="lead">Canary Consultants is an accounting firm located in Manassas, VA, serving clients in the District of Columbia, Maryland
+        and Virginia area since 20XX.</br> <a>We are dedicated to providing our clients with personalized accounting and tax services
+        for individual, business and corporate clients.</a> Our team continuously strives to provide outstanding customer service
+        while adhering to the updated rules and regulations within the accounting industry.</p>
+          <a href="#what" class="btn">Read 
+            More</a>
+      </div>
+    </header>
+    <!-- Section: What we do -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center"><span class="text-primary">What</span> 
+          We Do</h2>
+          <div class="items">
+            <div class="item">
+              <i class="fas fa-university fa-2x"></i>
+              <div>
+                <h3>Financial Services</h3>
+                <p>Comprehensive CPA and CFO services for accounting, taxation, payroll, etc.</p>
+              </div>
+            </div>
+            <div class="item">
+              <i class="fas fa-book-reader fa-2x"></i>
+              <div>
+                <h3>Start-Up Business Services</h3>
+                <p>Business plans, Cash Flow Budgets, partnership agreements, billing and collection procedures, etc.</p>
+                </div>
+            </div>
+            <div class="item">
+              <i class="fas fa-pencil-alt fa-2x"></i>
+              <div>
+                <h3>Medial & Dental Practices Services</h3>
+                <p>Monthly and quarterly accounting, Quickbooks set-up and reporting, payroll preparation, annual reviews.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Section: Who we are -->
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Our</span> Team</h2>
+          <ul class="list">
+            <li>Foudner & Owner: Imran Khas, CPA</li>
+            <li>Worker 1: Position Name</li>
+            <li>Worker 2: Position Name</li>
+          </ul>
+      </div>
+    </section>
+  
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form action="process.php" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark">
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer"class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2023, Canary Consultants, All Rights Reserved</p>
+      </div>
+      <div>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+      </div>
+      </footer>
+
+    <!-- JQuery CDN -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+    <!-- Local JS file -->
+    <script src="./js/app.js"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrHh8isAu3NGKaDxL0M7iIjliajGsaAoM&callback=initMap"
+    async defer></script>
+      <!--chatbot test-->
+    <script src="https://main.d3uwhgnhvs2lp2.amplifyapp.com/lex-web-ui-loader.min.js"></script>
+    <script>
+    var loaderOpts = {
+      baseUrl: 'https://main.d3uwhgnhvs2lp2.amplifyapp.com/',
+      shouldLoadMinDeps: true
+    };
+    var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+    loader.load()
+      .catch(function (error) { console.error(error); });
+    </script>    
+</body>
+</html>
